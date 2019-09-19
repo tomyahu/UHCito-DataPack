@@ -45,3 +45,7 @@ scoreboard players set ticks teamsAlive 5
 scoreboard objectives add deaths minecraft.custom:minecraft.deaths
 scoreboard players set @a deaths 0
 
+
+# Compass
+scoreboard objectives add compassActive dummy
+scoreboard players set ticks compassActive 0

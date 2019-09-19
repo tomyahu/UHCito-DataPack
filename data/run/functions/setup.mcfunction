@@ -10,13 +10,13 @@ execute in minecraft:the_end run function uhc:gamerule_changes/setup
 # Sets everyone's game mode to adventure
 gamemode adventure @a
 
-## Creates Holding Chamber
-#fill ~-20 240 ~ ~ 243 ~-20 minecraft:glass
-#fill ~-19 241 ~-1 ~-1 243 ~-19 minecraft:air
-#tp @a ~-10 241 ~-10
+## Creates Holding Chamber for Dead Players
+fill -10 250 -10 10 253 10 minecraft:barrier
+fill -9 251 -9 9 253 9 minecraft:air
 
 # New world spawn
-#setworldspawn ~-10 241 ~-10
+setworldspawn 0 251 0
+spawnpoint @a 0 251 0
 
 # Add resistance 5 to everyone for 1 hour and hide particles
 effect give @a minecraft:resistance 3600 5 true

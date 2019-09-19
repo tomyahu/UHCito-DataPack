@@ -1,6 +1,9 @@
 # Check Golden Head Eaten
 function uhc:enchanted_apple_eaten
 
+## Update compass position
+execute if score ticks compassActive matches 1 run function uhc:do_compass_calculation
+
 ## Check if teams died
 # Team 1
 execute if score ticks team1Death matches 0 run execute unless entity @a[team=team1, scores={deaths=0}] run function uhc:teams_defeated/team1
