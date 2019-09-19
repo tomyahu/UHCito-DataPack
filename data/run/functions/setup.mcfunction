@@ -27,8 +27,6 @@ effect give Atemo678 minecraft:regeneration 3600 1 true
 # Add saturation 1 to everyone for 30 minutes and hide particles
 effect give @a minecraft:saturation 1000000 1 true
 
-difficulty peaceful
-
 ### Teams
 
 # Create Teams
