@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"Atemo678\"}"
+        },
+        "title": {"translate":"AY NO te has caido"},
+        "description": {"translate":"Sobreviviste más tiempo que Atemo678 en la Temporada 1"},
+		"hidden": true
+    },
+	"parent":"uhc:bladomir",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

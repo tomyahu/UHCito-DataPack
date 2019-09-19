@@ -1,0 +1,1 @@
+{"parent": "minecraft:recipes/root", "criteria": {"has_lots_of_items": {"trigger": "minecraft:inventory_changed", "conditions": {"slots": {"occupied": {"min": 10}}}}, "has_the_recipe": {"trigger": "minecraft:recipe_unlocked", "conditions": {"recipe": "minecraft:chest"}}}, "requirements": [["has_lots_of_items", "has_the_recipe"]]}

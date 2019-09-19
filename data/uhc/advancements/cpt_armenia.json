@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"andybaloian\"}"
+        },
+        "title": {"translate":"Todo un Armenio"},
+        "description": {"translate":"Sobreviviste más tiempo que Captain Armenia en la Temporada 1"},
+		"hidden": true
+    },
+	"parent":"uhc:root",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

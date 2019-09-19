@@ -1,0 +1,7 @@
+gamerule doDaylightCycle false
+gamerule naturalRegeneration false
+gamerule spawnRadius 0
+gamerule commandBlockOutput false
+gamerule logAdminCommands false
+gamerule disableRaids true
+gamerule announceAdvancements true

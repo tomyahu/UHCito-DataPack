@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"Darkestyle\"}"
+        },
+        "title": {"translate":"Sheeeit"},
+        "description": {"translate":"Sobreviviste más tiempo que Darkestyle en la Temporada 1"},
+		"frame": "goal",
+		"hidden": true
+    },
+	"parent":"uhc:madnstar",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

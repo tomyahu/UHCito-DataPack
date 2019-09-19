@@ -1,0 +1,11 @@
+### Shedule Achievements
+advancement grant @a only uhc:root
+schedule function uhc:scheduled_achievements/cpt_armenia_achievement 2795s
+schedule function uhc:scheduled_achievements/madnstar_achievement 4590s
+schedule function uhc:scheduled_achievements/bladomir_achievement 4890s
+schedule function uhc:scheduled_achievements/darkestyle_achievement 5510s
+schedule function uhc:scheduled_achievements/zijhyan_achievement 7075s
+schedule function uhc:scheduled_achievements/atemo_achievement 8277s
+schedule function uhc:scheduled_achievements/carrot_achievement 12770s
+schedule function uhc:scheduled_achievements/kemus_achievement 12975s
+schedule function uhc:scheduled_achievements/monsita_achievement 13500s

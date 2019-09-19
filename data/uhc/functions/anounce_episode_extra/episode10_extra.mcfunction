@@ -1,0 +1,1 @@
+worldborder damage amount 1000000000000000

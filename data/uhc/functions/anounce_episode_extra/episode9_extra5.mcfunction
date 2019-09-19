@@ -1,0 +1,1 @@
+tellraw @a {"text":"Quedan 1 minuto APURENSEN","color":"aqua"}

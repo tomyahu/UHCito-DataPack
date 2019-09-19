@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "title": {"translate":"Comenzando el UHCito"},
+        "description": {"translate":"Sobreviviste la espera para este momento."},
+		"background": "minecraft:textures/block/stone.png"
+    },
+	"rewards": {
+		"recipes": [
+			"uhc:glistering_melon",
+			"uhc:golden_head",
+			"uhc:golden_wither_skull",
+			"minecraft:golden_carrot"
+		]
+	},
+    "criteria": {
+        "bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

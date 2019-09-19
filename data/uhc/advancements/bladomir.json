@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"Bladomir\"}"
+        },
+        "title": {"translate":"Sobreviviendo al Router"},
+        "description": {"translate":"Sobreviviste mas tiempo que Bladomir en la Temporada 1"},
+		"hidden": true
+    },
+	"parent":"uhc:root",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    },
+    "hidden": "true"
+}

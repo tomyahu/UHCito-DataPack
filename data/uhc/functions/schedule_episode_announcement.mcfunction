@@ -1,0 +1,1 @@
+schedule function uhc:announce_episode 1500s

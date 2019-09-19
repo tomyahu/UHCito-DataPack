@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"K3mUs\"}"
+        },
+        "title": {"translate":"Holá"},
+        "description": {"translate":"Sobreviviste más tiempo que K3mUs en la Temporada 1"},
+		"frame": "goal",
+		"hidden": true
+    },
+	"parent":"uhc:zijhyan",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

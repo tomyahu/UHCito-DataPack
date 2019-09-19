@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"ItsCarrotXP\"}"
+        },
+        "title": {"translate":"Daucus carota"},
+        "description": {"translate":"Sobreviviste más tiempo que ItsCarrotXP en la Temporada 1"},
+		"frame": "goal",
+		"hidden": true
+    },
+	"parent":"uhc:atemo",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+tellraw @a {"text":"Quedan 10 minutos para estar en el 0,0","color":"aqua"}

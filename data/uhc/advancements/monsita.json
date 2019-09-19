@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{\"SkullOwner\":\"Monsiwi\"}"
+        },
+        "title": {"translate":"Superviviente"},
+        "description": {"translate":"Sobreviviste hasta el Episodio 10 del UHCito, igual que Monsiwi!"},
+		"frame": "challenge",
+		"hidden": true
+    },
+	"parent":"uhc:kemus",
+    "criteria": {
+        "minecraft:bedrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bedrock"
+                    }
+                ]
+            }
+        }
+    }
+}
