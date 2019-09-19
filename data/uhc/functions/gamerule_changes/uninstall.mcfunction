@@ -6,3 +6,4 @@ gamerule commandBlockOutput true
 gamerule logAdminCommands true
 gamerule disableRaids false
 gamerule announceAdvancements true
+gamerule doMobSpawning true

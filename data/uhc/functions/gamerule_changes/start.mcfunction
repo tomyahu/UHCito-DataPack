@@ -1,1 +1,2 @@
 gamerule doDaylightCycle true
+gamerule doMobSpawning true
