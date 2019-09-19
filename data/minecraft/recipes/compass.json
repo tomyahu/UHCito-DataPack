@@ -1,1 +1,31 @@
-{"type": "minecraft:crafting_shaped", "pattern": [" # ", "#X#", " # "], "key": {"#": {"item": "minecraft:iron_ingot"}, "X": {"item": "minecraft:redstone"}}, "result": {"item": "minecraft:compass"}, "group": "stuff"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A#B",
+    "#X#",
+    "C#D"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minecraft:spider_eye"
+    },
+    "D": {
+      "item": "minecraft:gunpowder"
+    },
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:compass"
+  }
+}
