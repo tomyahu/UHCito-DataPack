@@ -7,4 +7,4 @@ effect give @a minecraft:slowness 1000000 100
 effect give @a minecraft:jump_boost 1000000 200
 effect give @a minecraft:saturation 1000000 100
 effect give @a minecraft:water_breathing 1000000 255
-function uhc:saturation_reset/run 5s
+function uhc:saturation_reset/run

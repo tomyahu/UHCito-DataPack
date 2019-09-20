@@ -10,15 +10,8 @@
     },
 	"parent":"uhc:bladomir",
     "criteria": {
-        "minecraft:bedrock": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:bedrock"
-                    }
-                ]
-            }
+        "time": {
+            "trigger": "minecraft:impossible",
         }
     }
 }

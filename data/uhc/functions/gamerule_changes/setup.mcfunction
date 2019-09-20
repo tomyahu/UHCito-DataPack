@@ -3,6 +3,7 @@ gamerule naturalRegeneration false
 gamerule spawnRadius 0
 gamerule commandBlockOutput false
 gamerule logAdminCommands false
+gamerule sendCommandFeedback false
 gamerule disableRaids true
 gamerule announceAdvancements true
 gamerule doMobSpawning false
